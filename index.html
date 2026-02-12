@@ -1,0 +1,937 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamed Abdul Baseer | Data Engineer & AI Specialist</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Source+Code+Pro:wght@400;600&family=Barlow:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Loader -->
+    <div class="loader" id="loader">
+        <div class="loader-content">
+            <div class="gear-container">
+                <svg class="gear gear-1" viewBox="0 0 100 100">
+                    <path d="M50 10 L53 25 L60 12 L58 28 L70 18 L63 32 L78 27 L67 38 L85 38 L70 45 L88 50 L70 55 L85 62 L67 62 L78 73 L63 68 L70 82 L58 72 L60 88 L53 75 L50 90 L47 75 L40 88 L42 72 L30 82 L37 68 L22 73 L33 62 L15 62 L30 55 L12 50 L30 45 L15 38 L33 38 L22 27 L37 32 L30 18 L42 28 L40 12 L47 25 Z" fill="currentColor"/>
+                    <circle cx="50" cy="50" r="15" fill="#0a0a0a"/>
+                </svg>
+                <svg class="gear gear-2" viewBox="0 0 100 100">
+                    <path d="M50 10 L53 25 L60 12 L58 28 L70 18 L63 32 L78 27 L67 38 L85 38 L70 45 L88 50 L70 55 L85 62 L67 62 L78 73 L63 68 L70 82 L58 72 L60 88 L53 75 L50 90 L47 75 L40 88 L42 72 L30 82 L37 68 L22 73 L33 62 L15 62 L30 55 L12 50 L30 45 L15 38 L33 38 L22 27 L37 32 L30 18 L42 28 L40 12 L47 25 Z" fill="currentColor"/>
+                    <circle cx="50" cy="50" r="15" fill="#0a0a0a"/>
+                </svg>
+            </div>
+            <span class="loader-text">INITIALIZING</span>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">
+                <span class="logo-bracket">[</span>HAB<span class="logo-bracket">]</span>
+            </a>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#certifications" class="nav-link">Certifications</a></li>
+                <li><a href="#contact" class="nav-link nav-cta">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-bg">
+            <div class="grid-overlay"></div>
+            <div class="diagonal-stripes"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-badge">
+                <span class="badge-icon">◆</span>
+                <span>Aspiring Data Engineering and Applied AI</span>
+            </div>
+            <h1 class="hero-title">
+                <span class="title-line">HAMED</span>
+                <span class="title-line title-accent">ABDUL BASEER</span>
+            </h1>
+            <p class="hero-subtitle">
+                Bridging <span class="highlight">Engineering</span> with 
+                <span class="highlight">Artificial Intelligence</span> to build 
+                smarter solutions for the industries that build our world.
+            </p>
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-number" data-count="3">0</span>
+                    <span class="stat-label">Key Projects</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <span class="stat-number" data-count="1">0</span>
+                    <span class="stat-label">Publication</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <span class="stat-number" data-count="2">0</span>
+                    <span class="stat-label">Research Roles</span>
+                </div>
+            </div>
+            <div class="hero-cta">
+                <a href="#projects" class="btn btn-primary">
+                    <span>View Projects</span>
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M7 17L17 7M17 7H7M17 7V17"/>
+                    </svg>
+                </a>
+                <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <span>Scroll to explore</span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">01 / ABOUT</span>
+                <h2 class="section-title">Engineering Tomorrow's<br><span class="accent">Intelligent Systems</span></h2>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-lead">
+                        I'm a <strong>Civil Engineering graduate</strong> who discovered that the same analytical 
+                        thinking used to design bridges can revolutionize how we process data and build AI systems.
+                    </p>
+                    <p>
+                        Currently pursuing my Master's in Computer Science at Bradley University, I specialize in 
+                        <strong>data engineering, machine learning, and applied AI</strong>. My unique background 
+                        allows me to understand both the physical infrastructure that powers industries like 
+                        construction and manufacturing, and the digital intelligence that's transforming them.
+                    </p>
+                    <p>
+                        At OSF Healthcare, I'm developing enterprise AI solutions—from fine-tuning LLMs to 
+                        building RAG architectures. I'm passionate about creating AI systems that make real-world 
+                        impact in industries that build and shape our physical world.
+                    </p>
+                    <div class="about-highlight">
+                        <div class="highlight-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                            </svg>
+                        </div>
+                        <div class="highlight-text">
+                            <strong>Why Caterpillar?</strong>
+                            <p>The fusion of heavy machinery with AI-driven analytics represents the future of 
+                            construction and infrastructure. I want to be part of building that future.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-education">
+                    <h3 class="edu-title">Education</h3>
+                    <div class="edu-card">
+                        <div class="edu-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 10v6M2 10l10-5 10 5-10 5z"/>
+                                <path d="M6 12v5c3 3 9 3 12 0v-5"/>
+                            </svg>
+                        </div>
+                        <div class="edu-content">
+                            <span class="edu-degree">Master of Science</span>
+                            <span class="edu-field">Computer Science</span>
+                            <span class="edu-school">Bradley University</span>
+                            <span class="edu-details">GPA: 3.83/4.0 • Jan 2025 – Dec 2026</span>
+                        </div>
+                    </div>
+                    <div class="edu-card">
+                        <div class="edu-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="3" y="3" width="18" height="18" rx="2"/>
+                                <path d="M3 9h18M9 21V9"/>
+                            </svg>
+                        </div>
+                        <div class="edu-content">
+                            <span class="edu-degree">Bachelor of Engineering</span>
+                            <span class="edu-field">Civil Engineering</span>
+                            <span class="edu-school">Osmania University</span>
+                            <span class="edu-details">GPA: 3.1/4.0 • Aug 2020 – Jul 2024</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="section experience" id="experience">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">02 / EXPERIENCE</span>
+                <h2 class="section-title">Professional<br><span class="accent">Journey</span></h2>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-marker">
+                        <span class="marker-dot"></span>
+                        <span class="marker-line"></span>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <span class="timeline-date">Jan 2026 – Present</span>
+                            <span class="timeline-badge current">Current</span>
+                        </div>
+                        <h3 class="timeline-title">Graduate Assistant / Junior AI Engineer</h3>
+                        <h4 class="timeline-company">Bradley University × OSF Healthcare System</h4>
+                        <p class="timeline-location">Peoria, IL</p>
+                        <ul class="timeline-list">
+                            <li>Contributing to an enterprise healthcare intelligence platform with applied AI and analytics solutions</li>
+                            <li>Designing and evaluating LLM-based solutions including fine-tuning and RAG architectures</li>
+                            <li>Implementing embedding-based retrieval systems for healthcare decision support</li>
+                            <li>Applying responsible AI practices in regulated healthcare environments</li>
+                        </ul>
+                        <div class="timeline-tags">
+                            <span>LLM Fine-tuning</span>
+                            <span>RAG</span>
+                            <span>Healthcare AI</span>
+                            <span>LangChain</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-marker">
+                        <span class="marker-dot"></span>
+                        <span class="marker-line"></span>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <span class="timeline-date">Jun 2025 – Dec 2025</span>
+                        </div>
+                        <h3 class="timeline-title">Research Assistant – Machine Learning</h3>
+                        <h4 class="timeline-company">Bradley University, Dept. of Computer Science</h4>
+                        <p class="timeline-location">Peoria, IL</p>
+                        <ul class="timeline-list">
+                            <li>Built and optimized regression models achieving R² score of 0.83 on experimental data</li>
+                            <li>Performed feature engineering, hyperparameter tuning, and comprehensive model evaluation</li>
+                            <li>Designed a Flask-based interactive application for ML predictions</li>
+                            <li>Co-authored peer-reviewed publication on ML-based material strength prediction</li>
+                        </ul>
+                        <div class="timeline-tags">
+                            <span>Python</span>
+                            <span>Scikit-learn</span>
+                            <span>Flask</span>
+                            <span>Research</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-marker">
+                        <span class="marker-dot"></span>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <span class="timeline-date">May 2023 – Jun 2023</span>
+                        </div>
+                        <h3 class="timeline-title">Data Science Intern</h3>
+                        <h4 class="timeline-company">Delta Sigma Technologies (with Cephei Consultants)</h4>
+                        <p class="timeline-location">Remote</p>
+                        <ul class="timeline-list">
+                            <li>Completed project-based data science internship with hands-on ML implementation</li>
+                            <li>Performed data cleaning, exploratory analysis, and applied machine learning tasks</li>
+                            <li>Collaborated in a team environment to deliver data-driven solutions</li>
+                        </ul>
+                        <div class="timeline-tags">
+                            <span>Data Analysis</span>
+                            <span>Machine Learning</span>
+                            <span>Python</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section projects" id="projects">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">03 / PROJECTS</span>
+                <h2 class="section-title">Featured<br><span class="accent">Work</span></h2>
+            </div>
+            <!-- Featured Project: Data Warehouse -->
+            <article class="project-featured-full" id="project-dwh">
+                <div class="project-header-full">
+                    <div class="project-number-large">01</div>
+                    <div class="project-intro">
+                        <div class="project-meta">
+                            <span class="project-category">Data Engineering</span>
+                            <span class="project-year">2025</span>
+                        </div>
+                        <h3 class="project-title-large">Data Warehouse Analytics Platform</h3>
+                        <p class="project-description-large">
+                            Built a complete Sales Data Mart from scratch—integrating <strong>6 source tables</strong> 
+                            from CRM and ERP systems through a <strong>3-layer medallion architecture</strong> 
+                            into a production-ready star schema for business analytics.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Key Metrics -->
+                <div class="project-metrics">
+                    <div class="metric-card">
+                        <span class="metric-value">6</span>
+                        <span class="metric-label">Source Tables</span>
+                        <span class="metric-detail">CRM + ERP systems</span>
+                    </div>
+                    <div class="metric-card">
+                        <span class="metric-value">3</span>
+                        <span class="metric-label">Data Layers</span>
+                        <span class="metric-detail">Bronze → Silver → Gold</span>
+                    </div>
+                    <div class="metric-card">
+                        <span class="metric-value">3</span>
+                        <span class="metric-label">Gold Tables</span>
+                        <span class="metric-detail">fact_sales + 2 dimensions</span>
+                    </div>
+                    <div class="metric-card">
+                        <span class="metric-value">15+</span>
+                        <span class="metric-label">ETL Transformations</span>
+                        <span class="metric-detail">Cleansing, joins, aggregations</span>
+                    </div>
+                </div>
+
+                <!-- Architecture Artifacts Gallery -->
+                <div class="project-artifacts">
+                    <h4 class="artifacts-title">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20">
+                            <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
+                            <circle cx="8.5" cy="8.5" r="1.5"/>
+                            <polyline points="21 15 16 10 5 21"/>
+                        </svg>
+                        Architecture Artifacts
+                    </h4>
+                    <div class="artifacts-gallery">
+                        <div class="artifact-card" onclick="openLightbox('images/high-level-architecture.png', 'High Level Architecture')">
+                            <img src="images/high-level-architecture.png" alt="High Level Architecture" loading="lazy">
+                            <div class="artifact-overlay">
+                                <span class="artifact-name">High Level Architecture</span>
+                                <span class="artifact-desc">End-to-end data flow</span>
+                            </div>
+                        </div>
+                        <div class="artifact-card" onclick="openLightbox('images/data-flow.png', 'Data Flow & Lineage')">
+                            <img src="images/data-flow.png" alt="Data Flow" loading="lazy">
+                            <div class="artifact-overlay">
+                                <span class="artifact-name">Data Flow & Lineage</span>
+                                <span class="artifact-desc">Bronze → Silver → Gold</span>
+                            </div>
+                        </div>
+                        <div class="artifact-card" onclick="openLightbox('images/star-schema.png', 'Star Schema Design')">
+                            <img src="images/star-schema.png" alt="Star Schema" loading="lazy">
+                            <div class="artifact-overlay">
+                                <span class="artifact-name">Star Schema Design</span>
+                                <span class="artifact-desc">Sales Data Mart model</span>
+                            </div>
+                        </div>
+                        <div class="artifact-card" onclick="openLightbox('images/data-integration.png', 'Data Integration')">
+                            <img src="images/data-integration.png" alt="Data Integration" loading="lazy">
+                            <div class="artifact-overlay">
+                                <span class="artifact-name">Data Integration</span>
+                                <span class="artifact-desc">Table relationships</span>
+                            </div>
+                        </div>
+                        <div class="artifact-card" onclick="openLightbox('images/etl-methods.png', 'ETL Methods')">
+                            <img src="images/etl-methods.png" alt="ETL Methods" loading="lazy">
+                            <div class="artifact-overlay">
+                                <span class="artifact-name">ETL Methods</span>
+                                <span class="artifact-desc">Transformation techniques</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Technical Details -->
+                <div class="project-details-grid">
+                    <div class="detail-section">
+                        <h5>Data Sources</h5>
+                        <ul class="detail-list">
+                            <li><span class="source-badge crm">CRM</span> crm_sales_details, crm_cust_info, crm_prd_info</li>
+                            <li><span class="source-badge erp">ERP</span> erp_cust_az12, erp_loc_a101, erp_px_cat_g1v2</li>
+                        </ul>
+                    </div>
+                    <div class="detail-section">
+                        <h5>Pipeline Architecture</h5>
+                        <div class="pipeline-flow">
+                            <span class="pipeline-stage bronze">Bronze<small>Raw Data</small></span>
+                            <span class="pipeline-arrow">→</span>
+                            <span class="pipeline-stage silver">Silver<small>Cleaned</small></span>
+                            <span class="pipeline-arrow">→</span>
+                            <span class="pipeline-stage gold">Gold<small>Star Schema</small></span>
+                        </div>
+                    </div>
+                    <div class="detail-section">
+                        <h5>Gold Layer Tables</h5>
+                        <ul class="detail-list">
+                            <li><code>gold.fact_sales</code> — Order transactions with FK relationships</li>
+                            <li><code>gold.dim_customers</code> — Customer master with demographics</li>
+                            <li><code>gold.dim_products</code> — Product catalog with categories</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="project-tech-full">
+                    <span>SQL Server</span>
+                    <span>Stored Procedures</span>
+                    <span>Star Schema</span>
+                    <span>ETL Pipelines</span>
+                    <span>Dimensional Modeling</span>
+                    <span>Data Integration</span>
+                </div>
+            </article>
+
+            <div class="projects-grid">
+                <!-- Project 02: LLM Sentiment -->
+                <article class="project-card">
+                    <div class="project-number">02</div>
+                    <div class="project-content">
+                        <div class="project-meta">
+                            <span class="project-category">NLP / AI</span>
+                            <span class="project-year">2025</span>
+                        </div>
+                        <h3 class="project-title">LLM Sentiment Evaluation Framework</h3>
+                        
+                        <!-- Mini Metrics -->
+                        <div class="mini-metrics">
+                            <div class="mini-metric">
+                                <span class="mini-value">10K+</span>
+                                <span class="mini-label">Tweets Analyzed</span>
+                            </div>
+                            <div class="mini-metric">
+                                <span class="mini-value">4</span>
+                                <span class="mini-label">LLMs Evaluated</span>
+                            </div>
+                            <div class="mini-metric">
+                                <span class="mini-value">3</span>
+                                <span class="mini-label">Prompting Strategies</span>
+                            </div>
+                        </div>
+
+                        <p class="project-description">
+                            Built an evaluation pipeline benchmarking <strong>GPT-4, Claude, Llama, and Gemini</strong> 
+                            for tweet-level sentiment classification. Designed zero-shot, one-shot, and few-shot 
+                            prompting strategies with comprehensive error analysis identifying failure patterns 
+                            in negation, sarcasm, and mixed sentiment.
+                        </p>
+                        <div class="project-tech">
+                            <span>Prompt Engineering</span>
+                            <span>NLP</span>
+                            <span>OpenAI API</span>
+                            <span>Python</span>
+                            <span>Error Analysis</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 03: ML Publication -->
+                <article class="project-card publication-card">
+                    <div class="project-number">03</div>
+                    <div class="publication-badge">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16">
+                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                            <polyline points="14 2 14 8 20 8"/>
+                            <line x1="16" y1="13" x2="8" y2="13"/>
+                            <line x1="16" y1="17" x2="8" y2="17"/>
+                        </svg>
+                        Peer-Reviewed Publication
+                    </div>
+                    <div class="project-content">
+                        <div class="project-meta">
+                            <span class="project-category">Machine Learning</span>
+                            <span class="project-year">2025</span>
+                        </div>
+                        <h3 class="project-title">Material Strength Prediction System</h3>
+                        
+                        <!-- Mini Metrics -->
+                        <div class="mini-metrics">
+                            <div class="mini-metric highlight">
+                                <span class="mini-value">0.83</span>
+                                <span class="mini-label">R² Score</span>
+                            </div>
+                            <div class="mini-metric">
+                                <span class="mini-value">500+</span>
+                                <span class="mini-label">Data Samples</span>
+                            </div>
+                            <div class="mini-metric">
+                                <span class="mini-value">12</span>
+                                <span class="mini-label">Features Engineered</span>
+                            </div>
+                        </div>
+
+                        <p class="project-description">
+                            Developed optimized regression models for predicting material strength properties 
+                            on real-world experimental data. Created a Flask-based interactive application 
+                            and co-authored a peer-reviewed publication in MDPI's Engineering Proceedings.
+                        </p>
+                        
+                        <a href="https://www.mdpi.com/2673-4109/7/1/3" target="_blank" class="publication-link">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+                                <polyline points="15 3 21 3 21 9"/>
+                                <line x1="10" y1="14" x2="21" y2="3"/>
+                            </svg>
+                            View Publication on MDPI
+                        </a>
+                        
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Scikit-learn</span>
+                            <span>Flask</span>
+                            <span>Feature Engineering</span>
+                            <span>Hyperparameter Tuning</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Future Vision Card -->
+                <article class="project-card highlight-cat">
+                    <div class="project-number">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="32" height="32">
+                            <path d="M12 2v20M2 12h20"/>
+                            <circle cx="12" cy="12" r="10"/>
+                        </svg>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-meta">
+                            <span class="project-category">Future Vision</span>
+                        </div>
+                        <h3 class="project-title">Industry 4.0 Analytics</h3>
+                        <p class="project-description">
+                            Eager to apply data engineering and AI expertise to revolutionize heavy equipment 
+                            analytics, predictive maintenance, and autonomous systems in the construction and 
+                            manufacturing sectors.
+                        </p>
+                        <div class="project-tech">
+                            <span>IoT Analytics</span>
+                            <span>Predictive Maintenance</span>
+                            <span>Computer Vision</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section skills" id="skills">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">04 / SKILLS</span>
+                <h2 class="section-title">Technical<br><span class="accent">Arsenal</span></h2>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <div class="category-header">
+                        <div class="category-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="16 18 22 12 16 6"/>
+                                <polyline points="8 6 2 12 8 18"/>
+                            </svg>
+                        </div>
+                        <h3>Programming</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">Python</span>
+                            <div class="skill-bar"><div class="skill-progress" data-progress="95"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">SQL</span>
+                            <div class="skill-bar"><div class="skill-progress" data-progress="90"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">JavaScript</span>
+                            <div class="skill-bar"><div class="skill-progress" data-progress="70"></div></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="category-header">
+                        <div class="category-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <ellipse cx="12" cy="5" rx="9" ry="3"/>
+                                <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/>
+                                <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/>
+                            </svg>
+                        </div>
+                        <h3>Data Engineering</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span>ETL Pipelines</span>
+                        <span>Data Integration</span>
+                        <span>Star Schema</span>
+                        <span>Data Warehousing</span>
+                        <span>Bronze/Silver/Gold</span>
+                        <span>SQL Optimization</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="category-header">
+                        <div class="category-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M12 2a10 10 0 1 0 10 10H12V2z"/>
+                                <path d="M12 2a10 10 0 0 1 10 10"/>
+                                <circle cx="12" cy="12" r="6"/>
+                            </svg>
+                        </div>
+                        <h3>Machine Learning & AI</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span>Regression Models</span>
+                        <span>Feature Engineering</span>
+                        <span>Model Evaluation</span>
+                        <span>LLM Fine-tuning</span>
+                        <span>RAG Architecture</span>
+                        <span>Prompt Engineering</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="category-header">
+                        <div class="category-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="2" y="3" width="20" height="14" rx="2" ry="2"/>
+                                <line x1="8" y1="21" x2="16" y2="21"/>
+                                <line x1="12" y1="17" x2="12" y2="21"/>
+                            </svg>
+                        </div>
+                        <h3>Databases</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span>MySQL</span>
+                        <span>SQL Server</span>
+                        <span>Vector Databases</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="category-header">
+                        <div class="category-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>
+                                <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>
+                            </svg>
+                        </div>
+                        <h3>Libraries & Frameworks</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span>pandas</span>
+                        <span>NumPy</span>
+                        <span>Scikit-learn</span>
+                        <span>Flask</span>
+                        <span>LangChain</span>
+                        <span>Transformers</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="category-header">
+                        <div class="category-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/>
+                            </svg>
+                        </div>
+                        <h3>Tools & Systems</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span>Linux</span>
+                        <span>REST APIs</span>
+                        <span>Power BI</span>
+                        <span>VS Code</span>
+                        <span>PyCharm</span>
+                        <span>Jupyter</span>
+                        <span>Git</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section class="section certifications" id="certifications">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">05 / CERTIFICATIONS</span>
+                <h2 class="section-title">Professional<br><span class="accent">Development</span></h2>
+            </div>
+            
+            <div class="certifications-grid">
+                <!-- Main Certification Card -->
+                <article class="cert-card featured">
+                    <div class="cert-badge">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="24" height="24">
+                            <circle cx="12" cy="8" r="6"/>
+                            <path d="M15.477 12.89L17 22l-5-3-5 3 1.523-9.11"/>
+                        </svg>
+                        Verified Certificate
+                    </div>
+                    <div class="cert-header">
+                        <div class="cert-logo">
+                            <svg viewBox="0 0 24 24" fill="currentColor" width="48" height="48">
+                                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                            </svg>
+                        </div>
+                        <div class="cert-info">
+                            <h3 class="cert-title">100 Days of Code: The Complete Python Pro Bootcamp</h3>
+                            <p class="cert-issuer">Udemy • Dr. Angela Yu (London App Brewery)</p>
+                        </div>
+                    </div>
+                    
+                    <div class="cert-metrics">
+                        <div class="cert-metric">
+                            <span class="cert-metric-value">100</span>
+                            <span class="cert-metric-label">Days</span>
+                        </div>
+                        <div class="cert-metric">
+                            <span class="cert-metric-value">60+</span>
+                            <span class="cert-metric-label">Hours</span>
+                        </div>
+                        <div class="cert-metric">
+                            <span class="cert-metric-value">100+</span>
+                            <span class="cert-metric-label">Projects</span>
+                        </div>
+                    </div>
+
+                    <div class="cert-description">
+                        <p>Comprehensive Python mastery covering everything from fundamentals to professional 
+                        development tools<strong>the only course you need to learn Python.</strong></p>
+                    </div>
+
+                    <!-- Curriculum Highlights -->
+                    <div class="cert-curriculum">
+                        <h4 class="curriculum-title">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18">
+                                <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>
+                                <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>
+                            </svg>
+                            What I Learned
+                        </h4>
+                        <div class="curriculum-grid">
+                            <div class="curriculum-section">
+                                <span class="curriculum-badge beginner">Beginner</span>
+                                <ul>
+                                    <li>Python Fundamentals & Variables</li>
+                                    <li>Control Flow & Loops</li>
+                                    <li>Functions & Debugging</li>
+                                    <li>Dictionaries & Lists</li>
+                                </ul>
+                            </div>
+                            <div class="curriculum-section">
+                                <span class="curriculum-badge intermediate">Intermediate</span>
+                                <ul>
+                                    <li>Object-Oriented Programming</li>
+                                    <li>File I/O & Error Handling</li>
+                                    <li>APIs & HTTP Requests</li>
+                                    <li>Web Scraping (BeautifulSoup)</li>
+                                </ul>
+                            </div>
+                            <div class="curriculum-section">
+                                <span class="curriculum-badge advanced">Advanced</span>
+                                <ul>
+                                    <li>Flask Web Development</li>
+                                    <li>RESTful APIs & Authentication</li>
+                                    <li>Databases (SQL & SQLite)</li>
+                                    <li>Deployment & Git</li>
+                                </ul>
+                            </div>
+                            <div class="curriculum-section">
+                                <span class="curriculum-badge professional">Professional</span>
+                                <ul>
+                                    <li>Data Science (pandas, NumPy)</li>
+                                    <li>Data Visualization (Matplotlib)</li>
+                                    <li>GUI Apps (Tkinter)</li>
+                                    <li>Automation & Scripting</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Key Projects Built -->
+                    <div class="cert-projects">
+                        <h4 class="projects-title">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18">
+                                <polygon points="12 2 2 7 12 12 22 7 12 2"/>
+                                <polyline points="2 17 12 22 22 17"/>
+                                <polyline points="2 12 12 17 22 12"/>
+                            </svg>
+                            Projects Built
+                        </h4>
+                        <div class="project-tags">
+                            <span>Snake Game</span>
+                            <span>Pong Game</span>
+                            <span>Blog Website</span>
+                            <span>REST API</span>
+                            <span>Web Scraper</span>
+                            <span>Password Manager</span>
+                            <span>Flash Cards App</span>
+                            <span>Habit Tracker</span>
+                            <span>Data Dashboard</span>
+                            <span>Automation Bots</span>
+                        </div>
+                    </div>
+
+                    <div class="cert-actions">
+                        <a href="images/Udemy - 100 Days of code Python.pdf" target="_blank" class="btn btn-primary">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18">
+                                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                                <polyline points="14 2 14 8 20 8"/>
+                            </svg>
+                            View Certificate
+                        </a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact" id="contact">
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <span class="section-tag">06 / CONTACT</span>
+                    <h2 class="section-title">Let's Build<br><span class="accent">Something Great</span></h2>
+                    <p class="contact-text">
+                        I'm actively seeking opportunities where I can learn expertise around Data. Let's discuss how I can 
+                        contribute to your team.
+                    </p>
+                    <div class="contact-details">
+                        <a href="mailto:hamedabdulbaseer@mail.bradley.edu" class="contact-item">
+                            <div class="contact-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                    <polyline points="22,6 12,13 2,6"/>
+                                </svg>
+                            </div>
+                            <div class="contact-label">
+                                <span class="label-title">Email</span>
+                                <span class="label-value">hamedabdulbaseer@mail.bradley.edu</span>
+                            </div>
+                        </a>
+                        <a href="tel:+13093231188" class="contact-item">
+                            <div class="contact-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                                </svg>
+                            </div>
+                            <div class="contact-label">
+                                <span class="label-title">Phone</span>
+                                <span class="label-value">(309) 323-1188</span>
+                            </div>
+                        </a>
+                        <a href="https://linkedin.com/in/hamed-abdul-baseer" target="_blank" class="contact-item">
+                            <div class="contact-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+                                    <rect x="2" y="9" width="4" height="12"/>
+                                    <circle cx="4" cy="4" r="2"/>
+                                </svg>
+                            </div>
+                            <div class="contact-label">
+                                <span class="label-title">LinkedIn</span>
+                                <span class="label-value">linkedin.com/in/hamed-abdul-baseer</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-cta">
+                    <div class="cta-card">
+                        <div class="cta-icon">
+                            <svg viewBox="0 0 100 100" class="blueprint-icon">
+                                <rect x="10" y="10" width="80" height="80" fill="none" stroke="currentColor" stroke-width="2"/>
+                                <line x1="10" y1="30" x2="90" y2="30" stroke="currentColor" stroke-width="1"/>
+                                <line x1="30" y1="10" x2="30" y2="90" stroke="currentColor" stroke-width="1"/>
+                                <rect x="40" y="40" width="40" height="40" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="5,5"/>
+                                <circle cx="60" cy="60" r="15" fill="none" stroke="currentColor" stroke-width="2"/>
+                            </svg>
+                        </div>
+                        <h3>Ready to Build the Future?</h3>
+                        <p>Download my resume or reach out directly to discuss opportunities.</p>
+                        <a href="My_Resume_Cat_Final.pdf" download class="btn btn-primary">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20">
+                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                                <polyline points="7 10 12 15 17 10"/>
+                                <line x1="12" y1="15" x2="12" y2="3"/>
+                            </svg>
+                            <span>Download Resume</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <span class="logo-bracket">[</span>HAB<span class="logo-bracket">]</span>
+                    <p>Aspiting Data Engineer</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#about">About</a>
+                    <a href="#experience">Experience</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#certifications">Certifications</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="footer-social">
+                    <a href="https://linkedin.com/in/hamed-abdul-baseer" target="_blank" aria-label="LinkedIn">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+                            <rect x="2" y="9" width="4" height="12"/>
+                            <circle cx="4" cy="4" r="2"/>
+                        </svg>
+                    </a>
+                    <a href="mailto:hamedabdulbaseer@mail.bradley.edu" aria-label="Email">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                            <polyline points="22,6 12,13 2,6"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Hamed Abdul Baseer. Built with precision.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Lightbox Modal -->
+    <div class="lightbox" id="lightbox">
+        <div class="lightbox-content">
+            <button class="lightbox-close" onclick="closeLightbox()">&times;</button>
+            <img src="" alt="" id="lightbox-img">
+            <div class="lightbox-caption" id="lightbox-caption"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
